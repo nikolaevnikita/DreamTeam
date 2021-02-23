@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B60AA8625E0EA3D00786585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AA8525E0EA3D00786585 /* AppDelegate.swift */; };
+		2B60AA8825E0EA3D00786585 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AA8725E0EA3D00786585 /* SceneDelegate.swift */; };
+		2B60AA8A25E0EA3D00786585 /* CreateTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AA8925E0EA3D00786585 /* CreateTeamViewController.swift */; };
+		2B60AA8D25E0EA3D00786585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B60AA8B25E0EA3D00786585 /* Main.storyboard */; };
+		2B60AA8F25E0EA3E00786585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B60AA8E25E0EA3E00786585 /* Assets.xcassets */; };
+		2B60AA9225E0EA3E00786585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B60AA9025E0EA3E00786585 /* LaunchScreen.storyboard */; };
+		2B60AAA025E0EE3900786585 /* HeroInformationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AA9F25E0EE3900786585 /* HeroInformationField.swift */; };
+		2B60AAA825E10FD900786585 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAA725E10FD900786585 /* UIImage+.swift */; };
+		2B60AAAE25E11C6100786585 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAAD25E11C6100786585 /* UIConstants.swift */; };
+		2B60AAB325E11F6D00786585 /* HeroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAB225E11F6D00786585 /* HeroTextField.swift */; };
+		2B60AAB725E13D0100786585 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAB625E13D0100786585 /* UIViewController+.swift */; };
+		2B60AABE25E15EDF00786585 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AABD25E15EDF00786585 /* NetworkManager.swift */; };
+		2B60AAC325E1638A00786585 /* HeroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAC225E1638A00786585 /* HeroResponse.swift */; };
+		2B60AAC825E254D400786585 /* LoadedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAC725E254D400786585 /* LoadedImageView.swift */; };
+		2B60AAD125E262E700786585 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAD025E262E700786585 /* StoreManager.swift */; };
+		2B60AAD425E2633800786585 /* QuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAD325E2633800786585 /* QuoteResponse.swift */; };
+		2B60AAD825E2635600786585 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAD725E2635600786585 /* Hero.swift */; };
+		2B60AADB25E2646200786585 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AADA25E2646200786585 /* Team.swift */; };
+		2B60AADE25E271B500786585 /* HeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AADD25E271B500786585 /* HeroCollectionViewCell.swift */; };
+		2B60AAE125E2857200786585 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAE025E2857200786585 /* TeamsTableViewController.swift */; };
+		2B60AAE425E286F600786585 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAE325E286F600786585 /* TeamTableViewCell.swift */; };
+		2B60AAE725E391C300786585 /* EditTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B60AAE625E391C300786585 /* EditTeamViewController.swift */; };
+		F83AEA3BE3FFD0D9D5804AA3 /* Pods_DreamTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E711E15123914D9721D7AC /* Pods_DreamTeam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01EA5EF830B5B169FC8BFB3C /* Pods-DreamTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamTeam.debug.xcconfig"; path = "Target Support Files/Pods-DreamTeam/Pods-DreamTeam.debug.xcconfig"; sourceTree = "<group>"; };
+		0D9B9575DA575FACD6B18E4E /* Pods-DreamTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamTeam.release.xcconfig"; path = "Target Support Files/Pods-DreamTeam/Pods-DreamTeam.release.xcconfig"; sourceTree = "<group>"; };
+		2B60AA8225E0EA3D00786585 /* DreamTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B60AA8525E0EA3D00786585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B60AA8725E0EA3D00786585 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B60AA8925E0EA3D00786585 /* CreateTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamViewController.swift; sourceTree = "<group>"; };
+		2B60AA8C25E0EA3D00786585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B60AA8E25E0EA3E00786585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B60AA9125E0EA3E00786585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B60AA9325E0EA3E00786585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B60AA9F25E0EE3900786585 /* HeroInformationField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInformationField.swift; sourceTree = "<group>"; };
+		2B60AAA725E10FD900786585 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		2B60AAAD25E11C6100786585 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		2B60AAB225E11F6D00786585 /* HeroTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTextField.swift; sourceTree = "<group>"; };
+		2B60AAB625E13D0100786585 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		2B60AABD25E15EDF00786585 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2B60AAC225E1638A00786585 /* HeroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroResponse.swift; sourceTree = "<group>"; };
+		2B60AAC725E254D400786585 /* LoadedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadedImageView.swift; sourceTree = "<group>"; };
+		2B60AAD025E262E700786585 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		2B60AAD325E2633800786585 /* QuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteResponse.swift; sourceTree = "<group>"; };
+		2B60AAD725E2635600786585 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		2B60AADA25E2646200786585 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		2B60AADD25E271B500786585 /* HeroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B60AAE025E2857200786585 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		2B60AAE325E286F600786585 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		2B60AAE625E391C300786585 /* EditTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamViewController.swift; sourceTree = "<group>"; };
+		43E711E15123914D9721D7AC /* Pods_DreamTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B60AA7F25E0EA3D00786585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83AEA3BE3FFD0D9D5804AA3 /* Pods_DreamTeam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B60AA7925E0EA3D00786585 = {
+			isa = PBXGroup;
+			children = (
+				2B60AA8425E0EA3D00786585 /* DreamTeam */,
+				2B60AA8325E0EA3D00786585 /* Products */,
+				88DDBD1C75E13C4E270224F4 /* Pods */,
+				36635BA54FF97FF286A06D17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B60AA8325E0EA3D00786585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AA8225E0EA3D00786585 /* DreamTeam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B60AA8425E0EA3D00786585 /* DreamTeam */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AAC025E15EEC00786585 /* AppConstants */,
+				2B60AAC125E15EFD00786585 /* Managers */,
+				2B60AAAA25E10FE000786585 /* Extensions */,
+				2B60AAC525E1638E00786585 /* Models */,
+				2B60AAA225E0EE3E00786585 /* Views */,
+				2B60AA9D25E0EDDB00786585 /* Controllers */,
+				2B60AA9A25E0EA4B00786585 /* Supporting files */,
+			);
+			path = DreamTeam;
+			sourceTree = "<group>";
+		};
+		2B60AA9A25E0EA4B00786585 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AA8525E0EA3D00786585 /* AppDelegate.swift */,
+				2B60AA8725E0EA3D00786585 /* SceneDelegate.swift */,
+				2B60AA8B25E0EA3D00786585 /* Main.storyboard */,
+				2B60AA8E25E0EA3E00786585 /* Assets.xcassets */,
+				2B60AA9025E0EA3E00786585 /* LaunchScreen.storyboard */,
+				2B60AA9325E0EA3E00786585 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		2B60AA9D25E0EDDB00786585 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AA8925E0EA3D00786585 /* CreateTeamViewController.swift */,
+				2B60AAE025E2857200786585 /* TeamsTableViewController.swift */,
+				2B60AAE625E391C300786585 /* EditTeamViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B60AAA225E0EE3E00786585 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AA9F25E0EE3900786585 /* HeroInformationField.swift */,
+				2B60AAB225E11F6D00786585 /* HeroTextField.swift */,
+				2B60AAC725E254D400786585 /* LoadedImageView.swift */,
+				2B60AADD25E271B500786585 /* HeroCollectionViewCell.swift */,
+				2B60AAE325E286F600786585 /* TeamTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B60AAAA25E10FE000786585 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AAA725E10FD900786585 /* UIImage+.swift */,
+				2B60AAB625E13D0100786585 /* UIViewController+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2B60AAC025E15EEC00786585 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AAAD25E11C6100786585 /* UIConstants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		2B60AAC125E15EFD00786585 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AABD25E15EDF00786585 /* NetworkManager.swift */,
+				2B60AAD025E262E700786585 /* StoreManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2B60AAC525E1638E00786585 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B60AAC225E1638A00786585 /* HeroResponse.swift */,
+				2B60AAD325E2633800786585 /* QuoteResponse.swift */,
+				2B60AAD725E2635600786585 /* Hero.swift */,
+				2B60AADA25E2646200786585 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36635BA54FF97FF286A06D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43E711E15123914D9721D7AC /* Pods_DreamTeam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88DDBD1C75E13C4E270224F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01EA5EF830B5B169FC8BFB3C /* Pods-DreamTeam.debug.xcconfig */,
+				0D9B9575DA575FACD6B18E4E /* Pods-DreamTeam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B60AA8125E0EA3D00786585 /* DreamTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B60AA9625E0EA3E00786585 /* Build configuration list for PBXNativeTarget "DreamTeam" */;
+			buildPhases = (
+				A1B9ABFDD50BA6E3E844B8EF /* [CP] Check Pods Manifest.lock */,
+				2B60AA7E25E0EA3D00786585 /* Sources */,
+				2B60AA7F25E0EA3D00786585 /* Frameworks */,
+				2B60AA8025E0EA3D00786585 /* Resources */,
+				F1E5067211F7792BFF696A1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamTeam;
+			productName = DreamTeam;
+			productReference = 2B60AA8225E0EA3D00786585 /* DreamTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B60AA7A25E0EA3D00786585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					2B60AA8125E0EA3D00786585 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B60AA7D25E0EA3D00786585 /* Build configuration list for PBXProject "DreamTeam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B60AA7925E0EA3D00786585;
+			productRefGroup = 2B60AA8325E0EA3D00786585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B60AA8125E0EA3D00786585 /* DreamTeam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B60AA8025E0EA3D00786585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B60AA9225E0EA3E00786585 /* LaunchScreen.storyboard in Resources */,
+				2B60AA8F25E0EA3E00786585 /* Assets.xcassets in Resources */,
+				2B60AA8D25E0EA3D00786585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1B9ABFDD50BA6E3E844B8EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamTeam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E5067211F7792BFF696A1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamTeam/Pods-DreamTeam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamTeam/Pods-DreamTeam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DreamTeam/Pods-DreamTeam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B60AA7E25E0EA3D00786585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B60AA8A25E0EA3D00786585 /* CreateTeamViewController.swift in Sources */,
+				2B60AABE25E15EDF00786585 /* NetworkManager.swift in Sources */,
+				2B60AAA025E0EE3900786585 /* HeroInformationField.swift in Sources */,
+				2B60AAB725E13D0100786585 /* UIViewController+.swift in Sources */,
+				2B60AAD825E2635600786585 /* Hero.swift in Sources */,
+				2B60AAA825E10FD900786585 /* UIImage+.swift in Sources */,
+				2B60AAC325E1638A00786585 /* HeroResponse.swift in Sources */,
+				2B60AAE425E286F600786585 /* TeamTableViewCell.swift in Sources */,
+				2B60AA8625E0EA3D00786585 /* AppDelegate.swift in Sources */,
+				2B60AAD125E262E700786585 /* StoreManager.swift in Sources */,
+				2B60AAE125E2857200786585 /* TeamsTableViewController.swift in Sources */,
+				2B60AA8825E0EA3D00786585 /* SceneDelegate.swift in Sources */,
+				2B60AAB325E11F6D00786585 /* HeroTextField.swift in Sources */,
+				2B60AADB25E2646200786585 /* Team.swift in Sources */,
+				2B60AAAE25E11C6100786585 /* UIConstants.swift in Sources */,
+				2B60AAC825E254D400786585 /* LoadedImageView.swift in Sources */,
+				2B60AAD425E2633800786585 /* QuoteResponse.swift in Sources */,
+				2B60AADE25E271B500786585 /* HeroCollectionViewCell.swift in Sources */,
+				2B60AAE725E391C300786585 /* EditTeamViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B60AA8B25E0EA3D00786585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B60AA8C25E0EA3D00786585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B60AA9025E0EA3E00786585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B60AA9125E0EA3E00786585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B60AA9425E0EA3E00786585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B60AA9525E0EA3E00786585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B60AA9725E0EA3E00786585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EA5EF830B5B169FC8BFB3C /* Pods-DreamTeam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ4445TKU6;
+				INFOPLIST_FILE = "DreamTeam/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaevNikita.DreamTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B60AA9825E0EA3E00786585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9B9575DA575FACD6B18E4E /* Pods-DreamTeam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ4445TKU6;
+				INFOPLIST_FILE = "DreamTeam/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaevNikita.DreamTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B60AA7D25E0EA3D00786585 /* Build configuration list for PBXProject "DreamTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B60AA9425E0EA3E00786585 /* Debug */,
+				2B60AA9525E0EA3E00786585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B60AA9625E0EA3E00786585 /* Build configuration list for PBXNativeTarget "DreamTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B60AA9725E0EA3E00786585 /* Debug */,
+				2B60AA9825E0EA3E00786585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B60AA7A25E0EA3D00786585 /* Project object */;
+}
